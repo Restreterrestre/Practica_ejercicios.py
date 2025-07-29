@@ -19,4 +19,6 @@ Flotante = 1.23123
 Boleano = True
 Boleano_falso = False
 
-print("Hola mundo","Pyt" "hon")
+Segundo_numero = 5
+
+print("Hola mundo","Pyt" "hole")
