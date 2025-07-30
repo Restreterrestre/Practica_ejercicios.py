@@ -57,6 +57,14 @@ Nuevo_numero = 2
 Nuevo_numero <<= 2
 print(Nuevo_numero)
 
+#Esta es una pruba del operador aritmetico modulo "%"
+Modul = 17 % 3
+Divizor_modul = 17/3
+print("La division dio :",Divizor_modul)
+print("El resultado del modulo es ",Modul)
+
+#Estructuras de control 
+
 
 
 
