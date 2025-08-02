@@ -62,8 +62,50 @@ Modul = 17 % 3
 Divizor_modul = 17/3
 print("La division dio :",Divizor_modul)
 print("El resultado del modulo es ",Modul)
+#Operadores logicos 
+
+Verdad = True
+Mentira = False
+
+
+print("Operador and: Verdadero,Falso:",Verdad and Mentira)#Solo devuelve true si los dos son true 
+
+print("Operador and: Verdadero,Verdadero:",Verdad and Verdad)
+
+print("Operador and: Verdadero,Falso:",Mentira and Mentira)
+
+print("Operador or: Verdadero,Falso:",Verdad or Mentira) #Devuelve True si alguno de los operadores es verdad
+
+print("Operador or: Falso,Falso:",Mentira or Mentira)
 
 #Estructuras de control 
+#Estructura if 
+
+Condicion1 = 10
+Condicion2 = 10
+
+if Condicion1 == Condicion2 :
+    print("Los numeros son iguales")
+else:
+    print("Los Numeros son diferentes")
+
+
+
+a = 10
+b = 30
+
+if a > b:
+    print("a es mayor que b")
+elif a < b:
+    print("a es menor que b")
+else:
+    print("a es igual a b")
+
+#Estructura for
+
+numeros = [18,50,90,-20,100,80,37]
+for n in numeros:
+    print(n)
 
 
 
